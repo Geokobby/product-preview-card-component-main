@@ -21,7 +21,8 @@ img{
     display: flex;
 }
 .perfume_list{
-    
+    border: solid red;
+    padding-left: 2em;
 }
 
 .perfume{
@@ -64,6 +65,7 @@ img{
 }
 
 button{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
