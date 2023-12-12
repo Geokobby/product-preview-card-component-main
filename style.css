@@ -7,10 +7,11 @@
 }
 
 body{
-    width: 60%;
+    width: 50%;
     border: solid 1px black;
     border-radius: 20px;
    margin-inline: auto;
+   font-size: 14px;
 }
 
 img{
@@ -19,10 +20,60 @@ img{
 .main_div{
     display: flex;
 }
+.perfume_list{
+    
+}
 
 .perfume{
     letter-spacing: 5px;
-    font-size: 14px;
     color: hsl(40, 7%, 83%);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-block: 2em ;
    
+}
+ .head_container{
+    margin-block: 2em;
+ }
+.perfume_head{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    
+}
+
+.perfume_text{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(40, 7%, 83%);
+    font-weight: 500;
+    border: solid red;
+    width: 75%;
+}
+.perfume_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    border: solid red;
+    margin-block: 2em;
+}
+.actual{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 50%;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: none;
+    color:hsl(0, 0%, 100%) ;
 }
