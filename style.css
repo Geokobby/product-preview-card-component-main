@@ -75,7 +75,7 @@ button{
     align-items: center;
     justify-content: center;
     gap: 1em;
-    width: 50%;
+    width: 80%;
     height: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -83,4 +83,9 @@ button{
     border-radius: 10px;
     border: none;
     color:hsl(0, 0%, 100%) ;
+}
+
+button:hover{
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
 }
