@@ -48,7 +48,7 @@ img{
     color: hsl(40, 7%, 83%);
     font-weight: 500;
     border: solid red;
-    width: 75%;
+    width: 85%;
 }
 .perfume_price{
     display: flex;
@@ -61,9 +61,14 @@ img{
 .actual{
     font-family: 'Fraunces';
     font-weight: 700;
+    color: hsl(158, 36%, 37%);
     
 }
-
+.fig_del{
+    font-family: 'Montserrat', sans-serif;
+        color: hsl(40, 7%, 83%);
+        font-weight: 500;
+}
 button{
     text-align: center;
     display: flex;
