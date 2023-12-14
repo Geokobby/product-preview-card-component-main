@@ -28,6 +28,8 @@ img{
 .perfume_list{
     border: solid red;
     padding-left: 2em;
+    height: 100%;
+    padding-top: 2em;
 }
 
 .perfume{
@@ -88,6 +90,7 @@ button{
     border-radius: 10px;
     border: none;
     color:hsl(0, 0%, 100%) ;
+    margin:1em 0 1em 0;
 }
 
 button:hover{
