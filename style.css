@@ -29,7 +29,8 @@ img{
     border: solid red;
     padding-left: 2em;
     height: 100%;
-    padding-top: 2em;
+    width: 50%;
+   
 }
 
 .perfume{
@@ -55,7 +56,7 @@ img{
     color: hsl(40, 7%, 83%);
     font-weight: 500;
     border: solid red;
-    width: 85%;
+    width: 80%;
 }
 .perfume_price{
     display: flex;
