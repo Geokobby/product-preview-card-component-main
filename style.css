@@ -7,6 +7,8 @@
 }
 
 body{
+    
+    margin-block: 3em;
     width: 100%;
    height: 100%;
     display: flex;
@@ -22,14 +24,18 @@ img{
 }
 .main_div{
     display: flex;
-    max-width: 736px;
+    max-width: 680px;
         height: 512px;
+        box-shadow: 15px 15px 80px -25px rgba(0, 0, 0, 0.15);
+        border-radius: 0 20px 20px 0;
 }
 .perfume_list{
     border:none;
     padding-left: 2em;
     height: 100%;
     width: 50%;
+    
+   
    
 }
 
@@ -56,7 +62,7 @@ img{
     color: hsl(40, 7%, 83%);
     /* font-weight: 500; */
     border: none;
-    width: 80%;
+    width: 90%;
 }
 .perfume_price{
     display: flex;
