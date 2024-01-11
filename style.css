@@ -108,16 +108,18 @@ button:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 650px){
     .main_div{
-        height: auto;
+      
         flex-direction: column;
         box-shadow: none;
-            align-items: center;
-            border: solid;
+        height: 100%;
+        
+            /* border: solid gray; */
+            
     }
 
-    .image__replacement {
+    /* .image__replacement {
         display: block ;
         border: solid red;
         -moz-box-sizing: border-box;
@@ -125,6 +127,23 @@ button:hover{
         background: url(images/image-product-mobile.jpg)
         no-repeat;
         
+    } */
+
+    .perfume_head{
+        width: 150%;
+        /* border: solid; */
+    }
+    .perfume_text{
+        width: 163%;
+
     }
 
+    .perfume_price{
+        /* border: solid; */
+        width: 110%;
+    }
+
+        button{
+            width: 200%;
+        }
 }
