@@ -104,3 +104,23 @@ button:hover{
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+    .main_div{
+        height: auto;
+        flex-direction: column;
+        box-shadow: none;
+            align-items: center;
+            border: solid;
+    }
+
+    .image__replacement {
+        display: block ;
+        border: solid red;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url(images/image-product-mobile.jpg)
+        no-repeat;
+    }
+
+}
