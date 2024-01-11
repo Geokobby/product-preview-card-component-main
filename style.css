@@ -55,6 +55,8 @@ img{
     font-family: 'Fraunces';
     font-weight: 700;
     color: hsl(212, 21%, 14%);
+    /* border: solid; */
+    width: 70%;
     
 }
 
