@@ -16,13 +16,18 @@ body{
         align-items: center;
 }
 
+.image__replacement{
+    width: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
 
+}
 
     
 
-img{
+/* img{
     border-radius: 20px 0 0 20px;
-}
+} */
 .main_div{
     display: flex;
     max-width: 680px;
