@@ -9,16 +9,17 @@
 body{
     
     margin-block: 3em;
-    width: 100%;
-   height: 100%;
+    /* width: 100em; */
+   /* height: 100em; */
     display: flex;
         justify-content: center;
         align-items: center;
+        background-color: hsl(30, 38%, 92%);
 }
 
  /* the image for desktop view */
 .image__replacement{
-    width: 50%;
+    min-width: 50%;
     background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
     background-position: bottom;
@@ -115,12 +116,15 @@ button:hover{
 }
 
 @media screen and (max-width: 650px){
+    body{
+        margin-block: 0;
+    }
     .main_div{
       
         flex-direction: column;
         box-shadow: none;
         height: fit-content;
-        margin-top: -45px; 
+       
         
     }
 
@@ -128,8 +132,8 @@ button:hover{
 
     .image__replacement {
         
-        width: 100%;
-        height: 480px;
+        max-width: 100%;
+        min-height: 480px;
         background-image: url(images/image-product-mobile.jpg);
         background-size: cover;
         background-position: center;
@@ -138,7 +142,7 @@ button:hover{
     }
 
     .perfume_head{
-        width: 150%;
+        min-width: 150%;
         /* border: solid; */
     }
     .perfume_text{
@@ -148,12 +152,12 @@ button:hover{
 
     .perfume_price{
         /* border: solid; */
-        width: 100%;
+        min-width: 100%;
         gap: 2em;
 
     }
 
         button{
-            width: 200%;
+           min-width: 200%;
         }
 }
